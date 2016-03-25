@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300);
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+/* Start custom CSS */
+
+body {
+   background-image: image-url('yosemite.jpg');
+   background-position: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.padtop {
+	padding-top: 20px;
+}
+
+h3 {
+	margin-top: 5px !important;
+}
+
+h2 {
+	margin-top: 5px !important;
+}
+
+#content {
+	padding-top: 10px;
+}
+
+p {
+	margin-bottom: 5px !important;
+}
+
+hr {
+	margin-top: 0px !important;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.small-name {
+	@media (min-width: 320px){
+	text-align: center;
+	}
+}
+
+.left-align {
+		@media (min-width: 1000px){
+	text-align: left;
+	}
+}
+
