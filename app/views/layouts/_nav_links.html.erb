@@ -1,0 +1,8 @@
+<!-- Nav Links -->
+<li class="<%= 'active' if params[:action] == 'index' %>">
+  <%= link_to "Resume", root_path %>
+</li>
+
+<li class="<%= 'active' if params[:action] == 'projects' %>">
+  <%= link_to "Projects", projects_path %>
+</li>
